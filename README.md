@@ -12,6 +12,7 @@ The PS2BAT module provides a cmdlet called `Convert-PSToBAT`, allowing users to 
 ```powershell
 Install-Module -Name PS2BAT
 ```
+> Make sure to run Powershell as administrator.
 
 Usage
 -----
@@ -20,7 +21,7 @@ Usage
 ```powershell
 Import-Module -Name PS2BAT -Force
 Convert-PSToBAT -Path "POWERSHELL_FILE_PATH"
-```        
+```
     
 
 *   **`-Path`:** Specifies the path to the PowerShell script file you want to convert.
