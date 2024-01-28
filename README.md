@@ -14,6 +14,8 @@ Install-Module -Name PS2BAT
 ```
 > Make sure to run Powershell as administrator.
 
+If you don't want to install the module, you can try the direct import method (See below).
+
 Usage
 -----
 
@@ -33,7 +35,9 @@ Import-Module -Name 'C:\Program Files\WindowsPowerShell\Modules\PS2BAT\1.0.0\PS2
 Convert-PSToBAT -Path "PATH_TO_PS1_FILE"
 ```
   
-### Universal Import Method (WORKS WITH ALL VERSIONS OF POWERSHELL):
+### Direct Import Method:
+> - Works with all versions of Powershell  
+> - No need to install the module
 1. Make sure your [Execution Policy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4) is compatible.
 2. Open PowerShell in the folder of the module.  
 3. Then execute this:
