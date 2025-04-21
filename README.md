@@ -48,3 +48,7 @@ Convert-PSToBAT -Path "PATH_TO_PS1_FILE"
 ```    
 
 Users can use alternative import methods if they encounter issues with the standard module import. Make sure to provide the correct path to the `PS2BAT.psm1` file and the PowerShell script file you want to convert.
+
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
